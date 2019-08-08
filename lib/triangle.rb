@@ -18,6 +18,7 @@ class Triangle
     elsif scalene
       return :scalene
     end
+    puts valid_sides
     if valid_sides = False
       raise TriangleError
     end
