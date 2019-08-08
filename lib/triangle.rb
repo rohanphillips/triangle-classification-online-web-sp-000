@@ -7,7 +7,7 @@ class Triangle
   end
 
   def kind
-
+    :equilateral
   end
 
   class TriangleError < StandardError
