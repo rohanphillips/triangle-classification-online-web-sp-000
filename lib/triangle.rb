@@ -1,3 +1,7 @@
 class Triangle
-  # write code here
+  # triangle code
+
+  class TriangleError < StandardError
+    # triangle error code
+  end
 end
