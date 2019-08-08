@@ -14,7 +14,7 @@ class Triangle
     isosceles = (@side1 == @side3 && @side2 != @side1) || (@side2 == @side3 && @side1 != @side2) || (@side1 == @side2 && @side1 != @side3)
     scalene = @side1 != @side2 && @side2 != @side3
 
-    if valid_sides == false || inequality == true
+    if valid_sides == false || (inequality == true && equilateral == false)
       raise TriangleError
     end
     if equilateral
