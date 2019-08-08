@@ -19,7 +19,7 @@ class Triangle
     elsif scalene
       return :scalene
     end
-    binding.pry 
+    binding.pry
     if valid_sides = False
       raise TriangleError
     end
