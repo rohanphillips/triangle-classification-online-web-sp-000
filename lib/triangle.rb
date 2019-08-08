@@ -1,3 +1,4 @@
+require "pry"
 class Triangle
 
   def initialize(side1, side2, side3)
@@ -18,7 +19,7 @@ class Triangle
     elsif scalene
       return :scalene
     end
-    puts valid_sides
+    binding.pry 
     if valid_sides = False
       raise TriangleError
     end
