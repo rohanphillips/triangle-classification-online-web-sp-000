@@ -6,7 +6,14 @@ class Triangle
     @side3 = side3
   end
 
+  def kind
+
+  end
+
   class TriangleError < StandardError
     # triangle error code
+    def message
+      "This triangle sucks"
+    end
   end
 end
