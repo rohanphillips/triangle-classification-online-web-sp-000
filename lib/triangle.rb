@@ -16,7 +16,7 @@ class Triangle
     elsif isosceles
       return :isosceles
     elsif scalene
-      return : scalene
+      return :scalene
     end
   end
 
