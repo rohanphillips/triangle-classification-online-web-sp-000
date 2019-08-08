@@ -13,7 +13,7 @@ class Triangle
     isosceles = (@side1 == @side3 && @side2 != @side1) || (@side2 == @side3 && @side1 != @side2) || (@side1 == @side2 && @side1 != @side3)
     scalene = @side1 != @side2 && @side2 != @side3
     binding.pry
-    if valid_sides = False
+    if valid_sides == False
       raise TriangleError
     end
     if equilateral
